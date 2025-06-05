@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galo</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="caja">
+        <h1 class="fuente" style="left: 0px;">Batalla Random</h1>
+        <button id="ComenzarBatalla">Comenzar Batalla</button>
+    </div>
+    <br><br><br>
+    <div class="center">
+        <span>
+            <span id='valor1' class="dado"></span>
+            <span id='valor2' class="dado"></span>
+            <button id="dado1" class="button1">Lanzar Dados</button>
+            <button id="dado2" class="button2">Lanzar Dados</button>
+            <span id='valor3' class="dado"></span>
+            <span id='valor4' class="dado"></span>
+        </span>
+    </div>
+    <br><br><br>
+    <div class="cajacombate">
+        <div class="lineacaja"></div>
+        <div class="circulo">
+            <div class="circulonegro"></div>
+        </div>
+        <span class="estadisticas">
+            <h2 id="n1" class="nombrepoke"></h2>
+            <img id="im1" style="width: 150px;">
+            <ul id="a1"></ul>
+            <ul id="d1"></ul>
+        </span>
+        <span class="estadisticas" style="transform: translateX(275px);">
+            <h2 id="n2" class="nombrepoke"></h2>
+            <img id="im2" style="width: 150px;">
+            <ul id="a2"></ul>
+            <ul id="d2"></ul>
+        </span>
+        <span class="estadisticas" style="transform: translateX(550px);">
+            <h2 id="n3" class="nombrepoke"></h2>
+            <img id="im3" style="width: 150px;">
+            <ul id="a3"></ul>
+            <ul id="d3"></ul>
+        </span>
+        <span class="estadisticas2">
+            <h2 id="n4" class="nombrepoke"></h2>
+            <img id="im4" style="width: 150px;">
+            <ul id="a4"></ul>
+            <ul id="d4"></ul>
+        </span>
+        <span class="estadisticas2" style="transform: translateX(-275px);">
+            <h2 id="n5" class="nombrepoke"></h2>
+            <img id="im5" style="width: 150px;">
+            <ul id="a5"></ul>
+            <ul id="d5"></ul>
+        </span>
+        <span class="estadisticas2" style="transform: translateX(-550px);">
+            <h2 id="n6" class="nombrepoke"></h2>
+            <img id="im6" style="width: 150px;">
+            <ul id="a6"></ul>
+            <ul id="d6"></ul>
+        </span>
+        <br>
+        <div>
+        <h2 id="Ganador" class="fuente" style="transform: translateX(-70%) translateY(200px);"></h2>
+        <h2 id="Ganador2" class="fuente" style="transform: translateX(70%) translateY(150px);"></h2>
+        </div>
+    </div>
+    
+<script src="js\pokemon.js"></script>
+<!--
+poner un boton para cada equipo que se pueda usar 3 veces y que se guarde el mayor valor y en 
+caso de empate gane el que mas valor tiene en los dados y bloquear el inicio de la batalla hasta que se tiren
+los dados
+
+sesionstorage.setitem(clave,valor)
+localstorage.setitem(clave,valor)
+.getitem(clave);
+.getitem(clave);
+.removeitem(clave);
+-->

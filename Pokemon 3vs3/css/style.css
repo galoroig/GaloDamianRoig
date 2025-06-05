@@ -1,0 +1,143 @@
+.caja{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+}
+.fuente{
+    color: black;
+    font-family: 'Press Start 2P';
+    font-size: 30px;
+}
+#ComenzarBatalla{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+
+    background-color: white;
+    width: auto;
+    justify-content: right;
+    
+    position: absolute;
+    left: 45%;
+}
+.cajaPoke{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.estadisticas{
+    position: absolute;
+    bottom: 250px;
+    left: 20px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px;
+
+    width: 10%;
+    height: fit-content;
+    
+    background-color: white;
+}
+.estadisticas2{
+    position: absolute;
+    bottom: 250px;
+    right: 20px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px;
+
+    width: 10%;
+    height: fit-content;
+    
+    background-color: white;
+}
+.nombrepoke{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+body{
+    background-image: url(https://images8.alphacoders.com/970/970395.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin:0;
+}
+.cajacombate{
+    background: linear-gradient(to left,red 50%, white 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+    border: solid black;
+    border-radius: 10%;
+    position: relative;
+}
+
+.lineacaja{
+    position: absolute;
+    background: black;
+    top: 0;
+    width: 5px;
+    height: 100%;
+    left: 50%;
+}
+.circulo{
+    background: white;
+    border: solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+.circulonegro {
+    width: 14px;
+    height: 14px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button1 {
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.button2 {
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dado {
+    background-color: white;
+    margin: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 40px;
+}
